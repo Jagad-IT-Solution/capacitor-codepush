@@ -1,9 +1,12 @@
-.DS_Store
-#ignore the files built by npm install
-node_modules/*
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-#ignore the compiled files
-bin/*
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 
-#ignore the test output files
-test-*
